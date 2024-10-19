@@ -83,7 +83,11 @@ const ProductPage = () => {
                 className="mt-3 list-disc  list-oustide pl-3 text-sm "
                 itemType=""
               >
-                <li>{productData.description}</li>
+                {
+                  productData && productData.description.map((item, index) => {
+                   return <li key={index}>{item}</li>                    
+                  })
+                }
               </ul>
             </div>
           </div>

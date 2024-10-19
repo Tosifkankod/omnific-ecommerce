@@ -1,12 +1,13 @@
 import { useEffect, useState } from "react";
 import CartItem from "./CartItem/CartItem";
+import { ref, set, push } from 'firebase/database';
+import {database} from '../../../config'
 
 const Cart = () => {
   const [cartData, setCartData] = useState(() => {
     const storedCart = localStorage.getItem("cart");
     return storedCart ? JSON.parse(storedCart) : [];
   });
-
   const [address, setAddress] = useState({
     fullName: "",
     line1: "",
@@ -14,8 +15,7 @@ const Cart = () => {
     pincode: "",
     state: "",
   });
-
-  const [paymentMethod, setPaymentMethod] = useState("COD"); // Default to Cash On Delivery
+  const [paymentMethod, setPaymentMethod] = useState("COD");
 
   // Sync cartData with localStorage whenever it changes
   useEffect(() => {
@@ -63,20 +63,37 @@ const Cart = () => {
   // Handle form submission
   const handleOnSubmit = (e) => {
     e.preventDefault(); // Prevent default form submission behavior
-    
-    
-    
 
+    e.preventDefault();
 
+    // Merge all data (cartData, address, paymentMethod) into one object
+    const orderData = {
+      cart: cartData,
+      address: address,
+      paymentMethod: paymentMethod,
+      totalPrice: totalPrice,
+      orderDate: new Date().toISOString(),
+    };
 
-
-    setAddress({
-      fullName: "",
-      line1: "",
-      line2: "",
-      pincode: "",
-      state: "",
-    });
+    // Push the merged data to Firebase
+    const ordersRef = ref(database, "orders");
+    const newOrderRef = push(ordersRef); // Create a new entry in the "orders" node
+    set(newOrderRef, orderData) // Save the order data
+      .then(() => {
+        console.log("Order data saved successfully!");
+        // Optionally reset the form or show success message
+        setAddress({
+          fullName: "",
+          line1: "",
+          line2: "",
+          pincode: "",
+          state: "",
+        });
+        setCartData([]);
+      })
+      .catch((error) => {
+        console.error("Error saving order data: ", error);
+      });
   };
 
   return (
@@ -282,12 +299,13 @@ const Cart = () => {
                   </dl>
                 </div>
 
-                <a
+                <button
+                  onClick={handleOnSubmit}
                   href="#"
                   className="flex bg-blue-400 w-full items-center justify-center rounded-lg px-5 py-2.5 text-sm font-medium text-white hover:bg-blue-500 focus:outline-none focus:ring-4 focus:ring-blue-300"
                 >
                   Proceed to Checkout
-                </a>
+                </button>
               </div>
             </div>
           </div>
