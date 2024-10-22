@@ -1,8 +1,10 @@
 import React from "react";
+import Footer from "../Footer/Footer";
 
 const About = () => {
   return (
-    <div className="p-3 w-1/2 mx-auto">
+    <>
+    <div className="p-3 w-1/2 mx-auto h-screen">
       <h1 className="text-center   text-3xl font-bold mt-4">Omnific Solutions</h1>
       <p className="mt-6 text-justify">
         OMNIFIC SOLUTIONS is a established in 2014 having its head office at
@@ -35,6 +37,8 @@ const About = () => {
       </p>
       <p className="mt-3 text-justify">Kindly check our product lists for details.</p>
     </div>
+    <Footer/>
+    </>
   );
 };
 

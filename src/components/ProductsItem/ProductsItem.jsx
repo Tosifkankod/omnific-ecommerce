@@ -2,12 +2,11 @@ import "./ProductsItem.css";
 import { NavLink } from "react-router-dom";
 
 // eslint-disable-next-line react/prop-types
-const ProductsItem = ({image, price, title, id}) => {
-  console.log(image, price, title)
+const ProductsItem = ({thumbnail, price, title, id}) => {
   return (
-    <div className="product_item w-[300px] h-[350px] shadow-sm cursor-pointer hover:shadow-md rounded-md  ">
-      <div className="w-full h-[45%] overflow-hidden">
-        <img src={image} className="w-full h-full  object-contain " />
+    <div className="product_item w-[350px] h-[400px] shadow-md cursor-pointer hover:shadow-md rounded-md  ">
+      <div className="w-full h-[50%] overflow-hidden">
+        <img src={thumbnail} className="w-full h-full  object-contain " />
       </div>
       <div className="content p-2">
         <h1 className="text-xl">

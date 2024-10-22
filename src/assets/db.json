@@ -1,87 +1,34 @@
 [
   {
     "id": 1,
-    "title": "Festival Jharokha",
+    "title": "Festival Jharokha Set of 5 ",
     "description": [
       "OMNIFIC SOLUTIONS brings you a specially designed Sheet metal Festival Jharokha to fill the joy with colours in everyone’s home",
-     " Festival Jharokha is a traditional wall mounted specially designed Festival Jharokha where one can keep Diya, Candle and light up. This will give festival look at your walls, Balcony, Lobby and enjoy the lights of festivals.",
+      " Festival Jharokha is a traditional wall mounted specially designed Festival Jharokha where one can keep Diya, Candle and light up. This will give festival look at your walls, Balcony, Lobby and enjoy the lights of festivals.",
       "Model: Festival Jharokha",
       "color: orange",
       "Material: Mild Steel with Powder Coating",
       "Colours: Festival colours, Red, Yellow, Blue, Green, Orange.",
       "Size: 18 cm x 12 cm (size of each item)",
       "Quantity: One Set consists of 5 Nos designs in different colours",
-     " Design: Looks like a Temple design.",
-     " Usage: Easy to use, just mount on the wall and keep Diya, Candel and light up.",
+      " Design: Looks like a Temple design.",
+      " Usage: Easy to use, just mount on the wall and keep Diya, Candel and light up.",
       "Life: Long-term"
     ],
-    "image": "https://res.cloudinary.com/dzadkuo41/image/upload/v1729317422/srfyrvwtkivpzjegkda2.jpg",
-    "price": 600,
-    "mrp": 1200
-  },
-  {
-    "id": 2,
-    "title": "Festival Jharokha",
-    "description": [
-      "OMNIFIC SOLUTIONS brings you a specially designed Sheet metal Festival Jharokha to fill the joy with colours in everyone’s home",
-     " Festival Jharokha is a traditional wall mounted specially designed Festival Jharokha where one can keep Diya, Candle and light up. This will give festival look at your walls, Balcony, Lobby and enjoy the lights of festivals.",
-      "Model: Festival Jharokha",
-      "color: green",
-      "Material: Mild Steel with Powder Coating",
-      "Colours: Festival colours, Red, Yellow, Blue, Green, Orange.",
-      "Size: 18 cm x 12 cm (size of each item)",
-      "Quantity: One Set consists of 5 Nos designs in different colours",
-     " Design: Looks like a Temple design.",
-     " Usage: Easy to use, just mount on the wall and keep Diya, Candel and light up.",
-      "Life: Long-term"
+    "thumbnail": "https://res.cloudinary.com/dzadkuo41/image/upload/v1729317423/o1c96kyaje8dzlch1col.jpg",
+    "images": [
+      "https://res.cloudinary.com/dzadkuo41/image/upload/v1729317422/srfyrvwtkivpzjegkda2.jpg",
+      "https://res.cloudinary.com/dzadkuo41/image/upload/v1729317422/sqmmjfm0lsydkjpyq8a2.jpg",
+      "https://res.cloudinary.com/dzadkuo41/image/upload/v1729317422/hu9x2tidxn8pnmhsullb.jpg",
+      "https://res.cloudinary.com/dzadkuo41/image/upload/v1729317422/w3jq8gcnjlhssgv4jhrm.jpg",
+      "https://res.cloudinary.com/dzadkuo41/image/upload/v1729317422/oljso40k8aydvpfdcaas.jpg"
     ],
-    "image": "https://res.cloudinary.com/dzadkuo41/image/upload/v1729317422/sqmmjfm0lsydkjpyq8a2.jpg",
-    "price": 600,
-    "mrp": 1200
-  },
-  {
-    "id": 3,
-    "title": "Festival Jharokha",
-    "description": [
-      "OMNIFIC SOLUTIONS brings you a specially designed Sheet metal Festival Jharokha to fill the joy with colours in everyone’s home",
-     " Festival Jharokha is a traditional wall mounted specially designed Festival Jharokha where one can keep Diya, Candle and light up. This will give festival look at your walls, Balcony, Lobby and enjoy the lights of festivals.",
-      "Model: Festival Jharokha",
-      "color: yellow",
-      "Material: Mild Steel with Powder Coating",
-      "Colours: Festival colours, Red, Yellow, Blue, Green, Orange.",
-      "Size: 18 cm x 12 cm (size of each item)",
-      "Quantity: One Set consists of 5 Nos designs in different colours",
-     " Design: Looks like a Temple design.",
-     " Usage: Easy to use, just mount on the wall and keep Diya, Candel and light up.",
-      "Life: Long-term"
-    ],
-    "image": "https://res.cloudinary.com/dzadkuo41/image/upload/v1729317422/hu9x2tidxn8pnmhsullb.jpg",
-    "price": 600,
-    "mrp": 1200
-  },
-  {
-    "id": 4,
-    "title": "Festival Jharokha",
-    "description": [
-      "OMNIFIC SOLUTIONS brings you a specially designed Sheet metal Festival Jharokha to fill the joy with colours in everyone’s home",
-     " Festival Jharokha is a traditional wall mounted specially designed Festival Jharokha where one can keep Diya, Candle and light up. This will give festival look at your walls, Balcony, Lobby and enjoy the lights of festivals.",
-      "Model: Festival Jharokha",
-      "color: blue",
-      "Material: Mild Steel with Powder Coating",
-      "Colours: Festival colours, Red, Yellow, Blue, Green, Orange.",
-      "Size: 18 cm x 12 cm (size of each item)",
-      "Quantity: One Set consists of 5 Nos designs in different colours",
-     " Design: Looks like a Temple design.",
-     " Usage: Easy to use, just mount on the wall and keep Diya, Candel and light up.",
-      "Life: Long-term"
-    ],
-    "image": "https://res.cloudinary.com/dzadkuo41/image/upload/v1729317422/w3jq8gcnjlhssgv4jhrm.jpg",
-    "price": 600,
-    "mrp": 1200
+    "price": 700,
+    "mrp": 1000
   },
   {
     "id": 5,
-    "title": "Big Rangoli Stencils",
+    "title": "Big Rangoli Stencils Set of 4 ",
     "description": [
       "OMNIFIC SOLUTIONS brings you a specially designed Sheet metal Rangoli Designs to fill the joy with colours in everyone's home",
       "Rangoli is a traditional Indian art form, often created during festivals and special occasions, using coloured powders, rice, or flower petals to create intricate patterns on the ground.",
@@ -89,53 +36,21 @@
       "Material: Mild Steel with Powder Coating",
       "Colours: Festival colours",
       "Size: 32 cm x 9 cm x 1 cm (Size of each item)",
-      "Quantity: One Set consists of 4 Nos designs in different colours", 
-      "Rangoli Designs: Shubh Deepavali, Happy Diwali, Shubh Labh, Diya Swastik Laxmi Paul Diya (combined)", 
-      "Usage: Easy to use rangoli designs, to fill colours of your choice and ready with Rangoli in a minute. Can be used in any festivals like Diwali, Puja's etc", 
+      "Quantity: One Set consists of 4 Nos designs in different colours",
+      "Rangoli Designs: Shubh Deepavali, Happy Diwali, Shubh Labh, Diya Swastik Laxmi Paul Diya (combined)",
+      "Usage: Easy to use rangoli designs, to fill colours of your choice and ready with Rangoli in a minute. Can be used in any festivals like Diwali, Puja's etc",
       "Life: Long-term"
     ],
-    "image": "https://res.cloudinary.com/dzadkuo41/image/upload/v1729317423/u132oidtflxbhnplvsul.jpg",
-    "price": 150,
-    "mrp": 2000
+    "thumbnail": "https://res.cloudinary.com/dzadkuo41/image/upload/v1729317423/u132oidtflxbhnplvsul.jpg",
+    "images": [
+      "https://res.cloudinary.com/dzadkuo41/image/upload/v1729317423/zyviz0zw1ymek4m4grv6.jpg",
+      "https://res.cloudinary.com/dzadkuo41/image/upload/v1729317423/cqx3a7xt9o2qy1qhedn8.jpg",
+      "https://res.cloudinary.com/dzadkuo41/image/upload/v1729317423/tqicdkxkzzu1ywsgfmaw.jpg",
+      "https://res.cloudinary.com/dzadkuo41/image/upload/v1729573956/ftrx1hymrxevj0yzkrfz.jpg"
+    ],
+    "price": 600,
+    "mrp": 900
   },
-  {
-    "id": 6,
-    "title": "Big Rangoli Stencils",
-    "description": [
-      "OMNIFIC SOLUTIONS brings you a specially designed Sheet metal Rangoli Designs to fill the joy with colours in everyone's home",
-      "Rangoli is a traditional Indian art form, often created during festivals and special occasions, using coloured powders, rice, or flower petals to create intricate patterns on the ground.",
-      "Model: OSRANBG04",
-      "Material: Mild Steel with Powder Coating",
-      "Colours: Festival colours",
-      "Size: 32 cm x 9 cm x 1 cm (Size of each item)",
-      "Quantity: One Set consists of 4 Nos designs in different colours", 
-      "Rangoli Designs: Shubh Deepavali, Happy Diwali, Shubh Labh, Diya Swastik Laxmi Paul Diya (combined)", 
-      "Usage: Easy to use rangoli designs, to fill colours of your choice and ready with Rangoli in a minute. Can be used in any festivals like Diwali, Puja's etc", 
-      "Life: Long-term"
-    ],
-    "image": "https://res.cloudinary.com/dzadkuo41/image/upload/v1729317423/zyviz0zw1ymek4m4grv6.jpg",
-    "price": 150,
-    "mrp": 2000
-  },
-  {
-    "id": 7,
-    "title": "Big Rangoli Stencils",
-    "description": [
-      "OMNIFIC SOLUTIONS brings you a specially designed Sheet metal Rangoli Designs to fill the joy with colours in everyone's home",
-      "Rangoli is a traditional Indian art form, often created during festivals and special occasions, using coloured powders, rice, or flower petals to create intricate patterns on the ground.",
-      "Model: OSRANBG04",
-      "Material: Mild Steel with Powder Coating",
-      "Colours: Festival colours",
-      "Size: 32 cm x 9 cm x 1 cm (Size of each item)",
-      "Quantity: One Set consists of 4 Nos designs in different colours", 
-      "Rangoli Designs: Shubh Deepavali, Happy Diwali, Shubh Labh, Diya Swastik Laxmi Paul Diya (combined)", 
-      "Usage: Easy to use rangoli designs, to fill colours of your choice and ready with Rangoli in a minute. Can be used in any festivals like Diwali, Puja's etc", 
-      "Life: Long-term"
-    ],
-    "image": "https://res.cloudinary.com/dzadkuo41/image/upload/v1729317423/tqicdkxkzzu1ywsgfmaw.jpg",
-    "price": 150,
-    "mrp": 2000
-  }, 
   {
     "id": 8,
     "title": "Small Rangoli Stencils",
@@ -150,91 +65,17 @@
       "Rangoli Designs: Om, Swastik, Shree, Laxmi Paul, Kalash, Diya",
       "Usage: Easy to use rangoli designs, To fill colours of your choice and ready with Rangoli in a minute. Can be used in any festivals like Diwali, Puja’s etc",
       "Life: Long-term"
-
     ],
-    "image": "https://res.cloudinary.com/dzadkuo41/image/upload/v1729317423/pigx9xy5bjfv2xlnsklr.jpg",
-    "price": 150,
-    "mrp": 2000
-  },
-  {
-    "id": 9,
-    "title": "Small Rangoli Stencils",
-    "description": [
-      "OMNIFIC SOLUTIONS brings you a specially designed Sheet metal Rangoli Designs to fill the joy with colours in everyone’s home",
-      "Rangoli is a traditional Indian art form, often created during festivals and special occasions, using coloured powders, rice, or flower petals to create intricate patterns on the ground.",
-      "Model: OSRANSM06",
-      "Material: Mild Steel with Powder Coating",
-      "Colours: Festival colours",
-      "Size: 9 cm x 9 cm x 1 cm (Size of each item)",
-      "Quantity: One Set consists of 6 Nos designs in different colours",
-      "Rangoli Designs: Om, Swastik, Shree, Laxmi Paul, Kalash, Diya",
-      "Usage: Easy to use rangoli designs, To fill colours of your choice and ready with Rangoli in a minute. Can be used in any festivals like Diwali, Puja’s etc",
-      "Life: Long-term"
-
+    "images": [
+      "https://res.cloudinary.com/dzadkuo41/image/upload/v1729317423/pigx9xy5bjfv2xlnsklr.jpg",
+      "https://res.cloudinary.com/dzadkuo41/image/upload/v1729317423/nb1n0m50nhg0mk8ixanc.jpg",
+      "https://res.cloudinary.com/dzadkuo41/image/upload/v1729317423/chdxiyjeprtrowx748ny.jpg",
+      "https://res.cloudinary.com/dzadkuo41/image/upload/v1729317423/h3uj9zbxa07euzk9l3p3.jpg", 
+      "https://res.cloudinary.com/dzadkuo41/image/upload/v1729317423/zajri3ejfyfpi9pv31ic.jpg", 
+      "https://res.cloudinary.com/dzadkuo41/image/upload/v1729317423/bzg2lakicsfybmuombau.jpg"
     ],
-    "image": "https://res.cloudinary.com/dzadkuo41/image/upload/v1729317423/nb1n0m50nhg0mk8ixanc.jpg",
-    "price": 150,
-    "mrp": 2000
-  },
-  {
-    "id": 10,
-    "title": "Small Rangoli Stencils",
-    "description": [
-      "OMNIFIC SOLUTIONS brings you a specially designed Sheet metal Rangoli Designs to fill the joy with colours in everyone’s home",
-      "Rangoli is a traditional Indian art form, often created during festivals and special occasions, using coloured powders, rice, or flower petals to create intricate patterns on the ground.",
-      "Model: OSRANSM06",
-      "Material: Mild Steel with Powder Coating",
-      "Colours: Festival colours",
-      "Size: 9 cm x 9 cm x 1 cm (Size of each item)",
-      "Quantity: One Set consists of 6 Nos designs in different colours",
-      "Rangoli Designs: Om, Swastik, Shree, Laxmi Paul, Kalash, Diya",
-      "Usage: Easy to use rangoli designs, To fill colours of your choice and ready with Rangoli in a minute. Can be used in any festivals like Diwali, Puja’s etc",
-      "Life: Long-term"
-
-    ],
-    "image": "https://res.cloudinary.com/dzadkuo41/image/upload/v1729317423/chdxiyjeprtrowx748ny.jpg",
-    "price": 150,
-    "mrp": 2000
-  },
-  {
-    "id": 11,
-    "title": "Small Rangoli Stencils",
-    "description": [
-      "OMNIFIC SOLUTIONS brings you a specially designed Sheet metal Rangoli Designs to fill the joy with colours in everyone’s home",
-      "Rangoli is a traditional Indian art form, often created during festivals and special occasions, using coloured powders, rice, or flower petals to create intricate patterns on the ground.",
-      "Model: OSRANSM06",
-      "Material: Mild Steel with Powder Coating",
-      "Colours: Festival colours",
-      "Size: 9 cm x 9 cm x 1 cm (Size of each item)",
-      "Quantity: One Set consists of 6 Nos designs in different colours",
-      "Rangoli Designs: Om, Swastik, Shree, Laxmi Paul, Kalash, Diya",
-      "Usage: Easy to use rangoli designs, To fill colours of your choice and ready with Rangoli in a minute. Can be used in any festivals like Diwali, Puja’s etc",
-      "Life: Long-term"
-
-    ],
-    "image": "https://res.cloudinary.com/dzadkuo41/image/upload/v1729317423/h3uj9zbxa07euzk9l3p3.jpg",
-    "price": 150,
-    "mrp": 2000
-  },
-  {
-    "id": 12,
-    "title": "Small Rangoli Stencils",
-    "description": [
-      "OMNIFIC SOLUTIONS brings you a specially designed Sheet metal Rangoli Designs to fill the joy with colours in everyone’s home",
-      "Rangoli is a traditional Indian art form, often created during festivals and special occasions, using coloured powders, rice, or flower petals to create intricate patterns on the ground.",
-      "Model: OSRANSM06",
-      "Material: Mild Steel with Powder Coating",
-      "Colours: Festival colours",
-      "Size: 9 cm x 9 cm x 1 cm (Size of each item)",
-      "Quantity: One Set consists of 6 Nos designs in different colours",
-      "Rangoli Designs: Om, Swastik, Shree, Laxmi Paul, Kalash, Diya",
-      "Usage: Easy to use rangoli designs, To fill colours of your choice and ready with Rangoli in a minute. Can be used in any festivals like Diwali, Puja’s etc",
-      "Life: Long-term"
-
-    ],
-    "image": "https://res.cloudinary.com/dzadkuo41/image/upload/v1729317423/zajri3ejfyfpi9pv31ic.jpg",
-    "price": 150,
-    "mrp": 2000
+    "thumbnail": "https://res.cloudinary.com/dzadkuo41/image/upload/v1729317423/pigx9xy5bjfv2xlnsklr.jpg",
+    "price": 600,
+    "mrp": 800
   }
- 
 ]

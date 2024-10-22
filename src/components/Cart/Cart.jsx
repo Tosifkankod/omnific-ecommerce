@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import CartItem from "./CartItem/CartItem";
 import { ref, set, push } from 'firebase/database';
 import {database} from '../../../config'
+import Footer from "../Footer/Footer";
 
 const Cart = () => {
   const [cartData, setCartData] = useState(() => {
@@ -106,7 +107,7 @@ const Cart = () => {
                 {cartData.length > 0 ? (
                   cartData.map((item) => (
                     <CartItem
-                      image={item.image}
+                      image={item.thumbnail}
                       key={item.id}
                       id={item.id}
                       title={item.title}
@@ -311,6 +312,7 @@ const Cart = () => {
           </div>
         </div>
       </section>
+      <Footer/>
     </>
   );
 };
