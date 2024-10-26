@@ -3,12 +3,14 @@ import CartItem from "./CartItem/CartItem";
 import { ref, set, push } from 'firebase/database';
 import {database} from '../../../config'
 import Footer from "../Footer/Footer";
+import {indianStates} from '../../assets/state.js'
 
 const Cart = () => {
   const [cartData, setCartData] = useState(() => {
     const storedCart = localStorage.getItem("cart");
     return storedCart ? JSON.parse(storedCart) : [];
   });
+
   const [address, setAddress] = useState({
     fullName: "",
     line1: "",
@@ -16,6 +18,7 @@ const Cart = () => {
     pincode: "",
     state: "",
   });
+
   const [paymentMethod, setPaymentMethod] = useState("COD");
 
   // Sync cartData with localStorage whenever it changes
@@ -36,7 +39,7 @@ const Cart = () => {
       return prev.map((item) => {
         return item.id === id
           ? { ...item, quantity: Math.max(item.quantity - 1, 0) }
-          : item; // Ensure quantity doesn't go below 0
+          : item;
       });
     });
   };
@@ -65,9 +68,6 @@ const Cart = () => {
   const handleOnSubmit = (e) => {
     e.preventDefault(); // Prevent default form submission behavior
 
-    e.preventDefault();
-
-    // Merge all data (cartData, address, paymentMethod) into one object
     const orderData = {
       cart: cartData,
       address: address,
@@ -76,13 +76,11 @@ const Cart = () => {
       orderDate: new Date().toISOString(),
     };
 
-    // Push the merged data to Firebase
     const ordersRef = ref(database, "orders");
     const newOrderRef = push(ordersRef); // Create a new entry in the "orders" node
-    set(newOrderRef, orderData) // Save the order data
+    set(newOrderRef, orderData)
       .then(() => {
         console.log("Order data saved successfully!");
-        // Optionally reset the form or show success message
         setAddress({
           fullName: "",
           line1: "",
@@ -92,13 +90,11 @@ const Cart = () => {
         });
         setCartData([]);
 
-        alert("order Place successfully");
+        alert("Order placed successfully!");
       })
       .catch((error) => {
         console.error("Error saving order data: ", error);
       });
-
-
   };
 
   return (
@@ -217,19 +213,25 @@ const Cart = () => {
                       >
                         State
                       </label>
-                      <input
-                        type="text"
+                      {/* State Dropdown */}
+                      <select
                         id="state"
                         name="state"
                         value={address.state}
                         onChange={handleOnChange}
-                        placeholder="State"
                         className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
                         required
-                      />
+                      >
+                        <option value="" disabled>
+                          Select a state
+                        </option>
+                        {indianStates.map((state) => (
+                          <option key={state} value={state}>
+                            {state}
+                          </option>
+                        ))}
+                      </select>
                     </div>
-
-                   
                   </form>
                 </div>
               </section>
@@ -311,7 +313,7 @@ const Cart = () => {
           </div>
         </div>
       </section>
-      <Footer/>
+      <Footer />
     </>
   );
 };
